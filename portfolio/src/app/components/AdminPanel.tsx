@@ -244,7 +244,7 @@ export const AdminPanel = () => {
                                             <img
                                                 src={skill.icon}
                                                 alt=""
-                                                className="h-7 w-7 shrink-0 object-contain grayscale"
+                                                className="h-7 w-7 shrink-0 object-contain"
                                                 onError={(e) => {
                                                     (e.currentTarget as HTMLImageElement).style.display = "none";
                                                 }}
